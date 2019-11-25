@@ -9,23 +9,22 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class firstPassword
+public class thirdPassword
 {
     private static int anzahlThreads = 26;
     public static void main(String[] args) throws FileNotFoundException
     {
-        Scanner s = new Scanner(new File("passwords\\password0"));
+        Scanner s = new Scanner(new File("passwords\\password2"));
         ExecutorService es = Executors.newFixedThreadPool(anzahlThreads);
-        List<firstThready> threadList = new ArrayList<>();
+        List<thirdThready> threadList = new ArrayList<>();
         String password = s.nextLine();
         String crackedPassword = "BRUH";
-
-        char[] start = "aaaa".toCharArray();
+        char[] start = "00000".toCharArray();
 
         for(int i = 0; i < anzahlThreads; ++i)
         {
-            String startString = start[0] +""+ start[1] +""+ start[2] +""+ start[3];
-            threadList.add(new firstThready(password,startString));
+            String startString = start[0] +""+ start[1] +""+ start[2] +""+ start[3] +""+ start[4];
+            threadList.add(new thirdThready(password,startString));
             start[0] += 1;
         }
 

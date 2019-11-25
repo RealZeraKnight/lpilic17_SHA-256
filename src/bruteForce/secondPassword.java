@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 public class secondPassword
 {
-    private static int anzahlThreads = 24;
+    private static int anzahlThreads = 26;
     public static void main(String[] args) throws FileNotFoundException
     {
         Scanner s = new Scanner(new File("passwords\\password1"));
