@@ -1,6 +1,5 @@
 package bruteForce;
 
-import java.awt.*;
 import java.util.concurrent.Callable;
 
 public class firstThready implements Callable<String>

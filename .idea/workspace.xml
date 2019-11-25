@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/firstPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/firstThready.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteForce/secondPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteForce/secondThready.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/Thready.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bruteForce/firstThready.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/firstThready.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +40,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="bruteForce Main" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.secondPassword">
+    <configuration name="firstPassword" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bruteForce.firstPassword" />
       <module name="lpilic17_SHA-256" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="secondPassword" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bruteForce.secondPassword" />
+      <module name="lpilic17_SHA-256" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.firstPassword" />
+      <item itemvalue="Application.secondPassword" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574708597653</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished password0">
+      <created>1574713857394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574713857394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished password0" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished password0" />
   </component>
 </project>
