@@ -1,17 +1,17 @@
-package subArrays;
+package ue2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
 
-public class thready implements Callable<Integer>
+public class Thready implements Callable<Integer>
 {
     private int teiler;
     private List<Integer> numbers;
     private List<List<Integer>> subNumbers;
     private int maxDifference;
-    public thready(int teiler, List<Integer> numbers)
+    public Thready(int teiler, List<Integer> numbers)
     {
         this.teiler = teiler;
         this.numbers = numbers;

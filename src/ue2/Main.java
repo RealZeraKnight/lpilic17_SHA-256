@@ -1,4 +1,4 @@
-package subArrays;
+package ue2;
 
 
 import java.io.File;
@@ -10,7 +10,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.stream.Collectors;
 
 public class Main
 {
@@ -20,7 +19,7 @@ public class Main
         Scanner s = null;
         try
         {
-            s = new Scanner(new File("numbers\\numbers6"));
+            s = new Scanner(new File("numbers\\numbers4"));
         }
         catch (FileNotFoundException e)
         {
@@ -29,7 +28,7 @@ public class Main
 
         int teiler = Integer.parseInt(s.nextLine());
         List<Integer> numbers = new ArrayList<>();
-        List<thready> threadList = new ArrayList<>();
+        List<Thready> threadList = new ArrayList<>();
         int maxDifference = 1;
 
         while(s.hasNextLine())
@@ -45,7 +44,7 @@ public class Main
         int abstand = numbers.size() / anzahlThreads;
         for(int i = 0; i < anzahlThreads; ++i)
         {
-            threadList.add(new thready(teiler, numbers.subList(i * abstand, (i+1) * abstand)));
+            threadList.add(new Thready(teiler, numbers.subList(i * abstand, (i+1) * abstand)));
         }
 
         List<Future<Integer>> future;

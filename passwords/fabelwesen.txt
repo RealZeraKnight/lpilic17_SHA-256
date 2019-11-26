@@ -121,7 +121,6 @@ Bearbeiten
 Quelltext bearbeiten
 Dabbe
 Südhessen
-[1]
 Hakemann
 Mahrt
 Muhkalb
@@ -137,8 +136,6 @@ Toggel
 Schweizer Alpen
 Bearbeiten
 Quelltext bearbeiten
-
-
 Adebar
 Storch
 Glücksbringer

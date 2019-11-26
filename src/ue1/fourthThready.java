@@ -1,4 +1,4 @@
-package bruteForce;
+package ue1;
 
 import java.util.List;
 import java.util.concurrent.Callable;
