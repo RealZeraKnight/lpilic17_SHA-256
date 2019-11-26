@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/passwords/fabelwesen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteForce/fourthPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteForce/fourthThready.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/thirdPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/thirdPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/thirdThready.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/thirdThready.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U7XRKch5YX1IDByTb5eWaui7Md" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunDashboard">
@@ -39,9 +43,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.thirdPassword">
+  <component name="RunManager" selected="Application.fourthPassword">
     <configuration name="firstPassword" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bruteForce.firstPassword" />
+      <module name="lpilic17_SHA-256" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fourthPassword" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bruteForce.fourthPassword" />
       <module name="lpilic17_SHA-256" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +76,7 @@
       <item itemvalue="Application.firstPassword" />
       <item itemvalue="Application.secondPassword" />
       <item itemvalue="Application.thirdPassword" />
+      <item itemvalue="Application.fourthPassword" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574718362565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished thirdPassword and thirdThready">
+      <created>1574788584990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574788584990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,9 +135,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finished password0" />
     <MESSAGE value="finished password1" />
     <MESSAGE value="created classes thirdPassword and thirdThready and added code to them" />
-    <option name="LAST_COMMIT_MESSAGE" value="created classes thirdPassword and thirdThready and added code to them" />
+    <MESSAGE value="finished thirdPassword and thirdThready" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished thirdPassword and thirdThready" />
   </component>
 </project>
