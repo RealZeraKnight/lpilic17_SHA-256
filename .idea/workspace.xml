@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="finished project SHA-256">
+    <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574808373021</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finished project SHA-256">
+      <created>1574808544532</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574808544532</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +206,8 @@
     <MESSAGE value="added code to ue3" />
     <MESSAGE value="finished ue3" />
     <MESSAGE value="quicksave" />
-    <option name="LAST_COMMIT_MESSAGE" value="quicksave" />
+    <MESSAGE value="finished project SHA-256" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished project SHA-256" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
