@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/passwords/fabelwesen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/fourthPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/fourthThready.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/numbers6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subArrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subArrays/thready.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.fourthPassword">
+  <component name="RunManager" selected="Application.subArray">
     <configuration name="firstPassword" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bruteForce.firstPassword" />
       <module name="lpilic17_SHA-256" />
@@ -65,6 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subArray" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="subArrays.Main" />
+      <module name="lpilic17_SHA-256" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="thirdPassword" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="bruteForce.thirdPassword" />
       <module name="lpilic17_SHA-256" />
@@ -77,6 +90,7 @@
       <item itemvalue="Application.secondPassword" />
       <item itemvalue="Application.thirdPassword" />
       <item itemvalue="Application.fourthPassword" />
+      <item itemvalue="Application.subArray" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -118,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574788584990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished fourthPassword and fourthThready">
+      <created>1574790243903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574790243903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +161,7 @@
     <MESSAGE value="finished password1" />
     <MESSAGE value="created classes thirdPassword and thirdThready and added code to them" />
     <MESSAGE value="finished thirdPassword and thirdThready" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished thirdPassword and thirdThready" />
+    <MESSAGE value="finished fourthPassword and fourthThready" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished fourthPassword and fourthThready" />
   </component>
 </project>
