@@ -40,7 +40,7 @@ public class Main
                     {
                         if(!br2.startsWith("/"))
                         {
-                            if(br2.toCharArray().length >= 2)
+                            if(br2.toCharArray().length >= 3)
                             {
                                 linesLines.add(br2);
                             }
