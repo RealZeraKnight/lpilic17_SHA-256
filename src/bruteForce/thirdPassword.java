@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 public class thirdPassword
 {
-    private static int anzahlThreads = 26;
+    private static int anzahlThreads = 59;
     public static void main(String[] args) throws FileNotFoundException
     {
         Scanner s = new Scanner(new File("passwords\\password2"));
@@ -25,7 +25,18 @@ public class thirdPassword
         {
             String startString = start[0] +""+ start[1] +""+ start[2] +""+ start[3] +""+ start[4];
             threadList.add(new thirdThready(password,startString));
-            start[0] += 1;
+            if(start[0] == '9')
+            {
+                start[0] = 65;
+            }
+            else if(start[0] == 'Z')
+            {
+                start[0] = 97;
+            }
+            else
+            {
+                start[0] += 1;
+            }
         }
 
         long startPoint = System.currentTimeMillis();

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/thirdPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteForce/thirdThready.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/firstPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/firstPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/secondPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/secondPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bruteForce/secondThready.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/secondThready.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bruteForce/thirdPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/thirdPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bruteForce/thirdThready.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruteForce/thirdThready.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574715131781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created classes thirdPassword and thirdThready and added code to them">
+      <created>1574718362565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574718362565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished password0" />
     <MESSAGE value="finished password1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished password1" />
+    <MESSAGE value="created classes thirdPassword and thirdThready and added code to them" />
+    <option name="LAST_COMMIT_MESSAGE" value="created classes thirdPassword and thirdThready and added code to them" />
   </component>
 </project>
