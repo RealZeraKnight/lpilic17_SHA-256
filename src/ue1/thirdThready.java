@@ -17,13 +17,19 @@ public class thirdThready implements Callable<String>
     @Override
     public String call()
     {
-        for(int i = 48; i < 124; ++i)
+        int nul = 48;
+        int neun = 57;
+        int A = 65;
+        int Z = 90;
+        int z = 122;
+        int a = 96;
+        for(int i = nul; i < 124; ++i)
         {
-            if(i <= 57 || (i >= 65 && i <= 90) || i >= 97)
+            if(i <= neun || (i >= A && i <= Z) || i >= a)
             {
-                if(i == 123)
+                if(i == z + 1)
                 {
-                    i = 48;
+                    i = nul;
                 }
 
                 if(StringUtil.applySha256(crackedPassword).equals(password))
@@ -60,7 +66,7 @@ public class thirdThready implements Callable<String>
                     {
                         cPassword[3] += 1;
                     }
-                    cPassword[4] = (char) 48;
+                    cPassword[4] = (char) nul;
                 }
 
                 if(cPassword[3] == 'z')
@@ -77,7 +83,7 @@ public class thirdThready implements Callable<String>
                     {
                         cPassword[2] += 1;
                     }
-                    cPassword[3] = (char) 48;
+                    cPassword[3] = (char) nul;
                 }
 
                 if(cPassword[2] == 'z')
@@ -94,7 +100,7 @@ public class thirdThready implements Callable<String>
                     {
                         cPassword[1] += 1;
                     }
-                    cPassword[2] = (char) 48;
+                    cPassword[2] = (char) nul;
                 }
 
                 if(cPassword[1] == 'z')
@@ -111,7 +117,7 @@ public class thirdThready implements Callable<String>
                     {
                         cPassword[0] += 1;
                     }
-                    cPassword[1] = (char) 48;
+                    cPassword[1] = (char) nul;
                 }
 
 

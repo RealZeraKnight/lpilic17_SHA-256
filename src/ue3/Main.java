@@ -3,7 +3,6 @@ package ue3;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,7 +13,7 @@ public class Main
         Scanner s = null;
         try
         {
-            s = new Scanner(new File("sites\\sample3.html"));
+            s = new Scanner(new File("sites\\advanced.html"));
         }
         catch (FileNotFoundException e)
         {

@@ -18,10 +18,10 @@ public class secondThready implements Callable<String>
     public String call()
     {
         int A = 65;
-        int Z = 91;
+        int Z = 90;
         for(int i = A; i < 92; ++i)
         {
-            if(i == Z)
+            if(i == Z + 1)
             {
                 i = A;
             }
@@ -67,8 +67,6 @@ public class secondThready implements Callable<String>
 
 
             crackedPassword = cPassword[0] +""+ cPassword[1] +""+ cPassword[2] +""+ cPassword[3] +""+ cPassword[4] +""+ cPassword[5];
-
-
 
         }
         return null;

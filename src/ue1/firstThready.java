@@ -17,11 +17,13 @@ public class firstThready implements Callable<String>
     @Override
     public String call()
     {
-        for(int i = 97; i < 124; ++i)
+        int z = 122;
+        int a = 96;
+        for(int i = a; i < 124; ++i)
         {
-            if(i == 123)
+            if(i == z + 1)
             {
-                i = 97;
+                i = a;
             }
 
             if(StringUtil.applySha256(crackedPassword).equals(password))
@@ -36,19 +38,19 @@ public class firstThready implements Callable<String>
             else
             {
                 cPassword[2] += 1;
-                cPassword[3] = (char) 96;
+                cPassword[3] = (char) a;
             }
 
             if(cPassword[2] == 'z')
             {
                 cPassword[1] += 1;
-                cPassword[2] = (char) 96;
+                cPassword[2] = (char) a;
             }
 
             if(cPassword[1] == 'z')
             {
                 cPassword[0] += 1;
-                cPassword[1] = (char) 96;
+                cPassword[1] = (char) a;
             }
 
 
