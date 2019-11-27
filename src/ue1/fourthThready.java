@@ -21,15 +21,13 @@ public class fourthThready implements Callable<String>
     @Override
     public String call()
     {
-        String crackedPassword = "";
         for(int i = von; i < bis; ++i)
         {
             if(StringUtil.applySha256(fabelwesen.get(i)).equals(password))
             {
-                crackedPassword = fabelwesen.get(i);
-                break;
+                return fabelwesen.get(i);
             }
         }
-        return crackedPassword;
+        return null;
     }
 }

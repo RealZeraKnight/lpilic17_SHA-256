@@ -1,7 +1,11 @@
 package ue1;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,23 +15,23 @@ import java.util.concurrent.Executors;
 
 public class fourthPassword
 {
-        private static int anzahlThreads = 10;
-        public static void main(String[] args) throws FileNotFoundException
+        private static int anzahlThreads = 12;
+        public static void main(String[] args) throws IOException
         {
             Scanner s = new Scanner(new File("passwords\\password3"));
-            Scanner fw = new Scanner(new File("passwords\\fabelwesen.txt"));
             ExecutorService es = Executors.newFixedThreadPool(anzahlThreads);
             List<fourthThready> threadList = new ArrayList<>();
             List<String> fabelWesen = new ArrayList<>();
             String password = s.nextLine();
             String crackedPassword = "BRUH";
 
-            while(fw.hasNextLine())
+            Document doc = Jsoup.connect("https://de.wikipedia.org/wiki/Liste_von_Fabelwesen").get();
+            for(Element e: doc.getElementsByTag("a"))
             {
-                fabelWesen.add(fw.nextLine());
+                fabelWesen.add(e.text());
             }
-            int abstand = fabelWesen.size() / anzahlThreads;
 
+            int abstand = fabelWesen.size() / anzahlThreads;
             for(int i = 0; i < anzahlThreads; ++i)
             {
                 threadList.add(new fourthThready(fabelWesen,password,i * abstand, (i+1) * abstand));

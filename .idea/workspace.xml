@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3b489508-30e7-4af0-afca-1b6c570565a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lpilic17_SHA-256.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lpilic17_SHA-256.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwords/fabelwesen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1/fourthPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1/fourthPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue1/fourthThready.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue1/fourthThready.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lpilic17_webCrawler_ue6" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ue3">
+  <component name="RunManager" selected="Application.fourthPassword">
     <configuration name="firstPassword" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ue1.firstPassword" />
       <module name="lpilic17_SHA-256" />
@@ -179,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574808544532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finished project SHA-256">
+      <created>1574808561685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574808561685</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
